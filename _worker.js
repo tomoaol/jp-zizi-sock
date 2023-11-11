@@ -6,12 +6,12 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = 'ca2c272f-e550-4f51-a39b-379933091a28';
 
-let proxyIP = '';
+let proxyIP = '141.147.168.245';
 
 // The user name and password do not contain special characters
 // Setting the address will ignore proxyIP
 // Example:  user:pass@host:port  or  host:port
-let socks5Address = '141.147.168.245';
+let socks5Address = '';
 
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
