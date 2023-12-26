@@ -11,7 +11,7 @@ let proxyIP = '103.179.45.98';
 // The user name and password do not contain special characters
 // Setting the address will ignore proxyIP
 // Example:  user:pass@host:port  or  host:port
-let socks5Address = '103.179.45.98';
+let socks5Address = '';
 
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
